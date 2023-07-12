@@ -1,0 +1,369 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navigationbar{
+  width: 100%;
+  height: 50px;
+  /* display: flex; */
+  background-image: linear-gradient(to right, #edd72d, #d80f66);
+}
+
+a{
+  height: 100px;
+  width: 100px;
+  /* background-color: #f5f6fa; */
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  margin: 20px;
+  font-size: 22px;
+  /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+}
+
+a i{
+  transition: all 0.3s linear;
+}
+
+a:hover{
+  transform: scale(1.4);
+}
+.fa-facebook{
+  color: blue;
+}
+.fa-instagram{
+  color: #e84393;
+}
+.fa-youtube{
+  color: #e84118;
+}
+.fa-linkedin{
+  color: #0097e6;
+}
+.fa-twitter{
+  color: #0097e6;
+}
+.fa-mobile{
+  color: silver;
+}
+.fa-envelope{
+  color: whitesmoke;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: medium;
+  cursor: pointer;
+  /* text-shadow: 2px 2px cyan; */
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  color: red;
+  transition: 3s;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 10px;
+  transition: 4s;
+}
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #d80f66;
+}
+
+/* 2nd */
+.navigation{
+  width: 100%;
+  height: 60px;
+  background-color: whitesmoke;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+nav ul li h3 {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li b{
+  background-color: #edd72d;
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  font-weight: bold;
+  /* font-size: 10px; */
+  /* transition: 4s; */
+}
+
+/* 3rd */
+.creat{
+  width: 100%;
+  height: 470px;
+  background: url(images/mba1.jpg) no-repeat;
+  background-size: 100% 470px;
+}
+.creat h3 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 40%;
+  margin-left: 180px;
+}
+.creat h1{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 45%;
+  margin-left: 180px;
+}
+.creat p{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 55%;
+  margin-left: 180px;
+}
+.creat button{
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 10px;
+  transition: 4s;
+  position: absolute;
+  top: 65%;
+  margin-left: 180px;
+  color: white;
+  font-size: 0.7em;
+  font-family: arial;
+  background-image: linear-gradient(to right, #edd72d, #d80f66);
+}
+
+
+ /* 4th */
+
+.line{
+  width: 1210px;
+  height: 150px;
+  background-image: linear-gradient(to right, #edd72d, #d80f66);
+}
+
+.line123{
+  width: 1210px;
+  height: 150px;
+  display: flex;
+  column-gap: 20px;
+  /* background-color: aqua; */
+}
+.line1{
+  width: 360px;
+  height: 110px;
+  margin-left: 40px;  
+  margin-top: 40px;
+  color: white;
+  /* background-color: yellowgreen; */
+}
+.line2{
+  width: 360px;
+  height: 110px;
+  margin-top: 40px;
+  color: white;
+  /* background-color: gray; */
+}
+.line3{
+  width: 360px;
+  height: 110px;
+  margin-top: 40px;
+  color: white;
+  /* background-color: blue; */
+}
+
+
+
+/* nav ul li h2 {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li h2{
+  width: auto;
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 4s;
+} */
+
+/* 5th */
+
+.ab-section{
+  width: 1210px;
+  height:500px;
+  /* background-color: #d80f66; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 8px; */
+  padding-left: 45px;
+  padding-right: 50px;
+}
+.text{
+  width: 700px;
+  height: 390px;
+  /* background-color: #edd72d; */
+}
+.text h2{
+  margin: 0;
+  padding: 0;
+  /* position: absolute; */
+  margin-left: 80px;
+
+}
+.text h3{
+  margin: 0;
+  padding: 0;
+  margin-left: 80px;
+}
+.text p{
+  margin: 0;
+  padding: 0;
+  margin-left: 80px;
+}
+.text button{
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 10px;
+  transition: 4s;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 80px;
+  color: white;
+  font-size: 0.7em;
+  font-family: arial;
+  background-image: linear-gradient(to right, #edd72d, #d80f66);
+}
+
+.img2{
+  width: 350px;
+  height: 400px;
+  margin-right: 40px;
+  background: url(images/abt.jpeg) no-repeat;
+  background-size: 350px 400px;
+  /* transform: translateY(-120px); */
+}
+
+/* service */
+
+.role{
+  width: 1210px;
+  height: 450px;
+  background-color:#f4f5f6;
+  /* margin-top: 50px; */
+}
+.role h2{
+  margin-left: 50px;
+  transform: translateY(70%);
+ 
+}
+.role p{
+  text-align: center;
+  color: #d80f66;
+}
+.photo{
+  width: 1210px;
+  height: 250px;
+  /* background-color: yellow; */
+  display: flex;
+  margin-top: 40px;
+  column-gap: 20px;
+}
+.pic1{
+  width: 600px;
+  height: 250px;
+  margin-left: 50px;
+  background: url(images/user.jpg)no-repeat;
+  background-size: cover;
+  /* background-color: chocolate; */
+}
+.name1{
+  margin: 0;
+  padding: 0;
+  width: 170px;
+  height: 30px;
+  margin-left: 20%;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  box-shadow:8px 8px 8px 8px #d0e4f8;
+  
+}
+.pic2{
+  width: 600px;
+  height: 250px;
+  background: url(images/manager.jpg)no-repeat;
+  background-size: cover;
+  /* background-color: greenyellow; */
+}
+.name2{
+  margin: 0;
+  padding: 0;
+  width: 170px;
+  height: 30px;
+  margin-left: 51%;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  transform: translateY(-100%);
+  box-shadow:8px 8px 8px 8px #d0e4f8;
+  
+}
+.pic3{
+  width: 600px;
+  height: 250px;
+  margin-right: 50px;
+  background: url(images/business.jpg)no-repeat;
+  background-size: cover;
+  /* background-color: gray; */
+}
+.name3{
+  margin: 0;
+  padding: 0;
+  width: 170px;
+  height: 30px;
+  margin-left: 82%;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  transform: translateY(-200%);
+  box-shadow:8px 8px 8px 8px #d0e4f8;
+  
+}
